@@ -6,7 +6,7 @@ A personal portfolio showcasing my work as a front-end developer. Built with Nex
 
 You can view my portfolio live at the following link:
 
-[Visit My Portfolio](https://jmendes.dev)
+[jmendes.dev](https://jmendes.dev)
 
 ## License
 
