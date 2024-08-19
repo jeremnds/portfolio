@@ -1,3 +1,5 @@
+import Links from "./Links";
+
 /* eslint-disable react/no-unescaped-entities */
 export default function Hero() {
   return (
@@ -24,32 +26,7 @@ export default function Hero() {
           de nouveaux projets.
         </p>
       </div>
-      <div className="flex items-center gap-1.5 text-sm ">
-        <a
-          href="https://github.com/jeremnds?tab=repositories"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-emerald-200"
-        >
-          github
-        </a>
-        ·
-        <a
-          href="https://www.linkedin.com/in/j%C3%A9r%C3%A9my-mendes-9984a1129/"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="hover:text-emerald-200"
-        >
-          linkedin
-        </a>
-        ·
-        <a
-          href="mailto:jmendescontact@gmail.com"
-          className="hover:text-emerald-200"
-        >
-          jmendescontact@gmail.com
-        </a>
-      </div>
+      <Links />
     </section>
   );
 }
