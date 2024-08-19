@@ -1,3 +1,4 @@
+import clsx from "clsx";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -17,7 +18,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className={inter.className}>{children}</body>
+      <body
+        className={clsx(
+          inter.className,
+          "max-w-3xl my-10 mx-auto w-full px-14 lg:px-0 "
+        )}
+      >
+        {children}
+      </body>
     </html>
   );
 }
