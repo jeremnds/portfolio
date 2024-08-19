@@ -3,7 +3,8 @@ export default function Hero() {
   return (
     <section className="mt-10 mb-20 ">
       <h1 className="text-3xl font-extrabold mb-10">
-        Bonjour, je suis Jérémy 👋
+        <span className="block sm:inline">Hello, moi c'est</span>
+        <span className="block sm:inline"> Jérémy 👋</span>
       </h1>
       <div className="text-zinc-400 max-w-lg mb-4">
         <p>
