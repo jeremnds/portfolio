@@ -1,11 +1,9 @@
-import React from "react";
-
 export default function Links() {
   return (
     <div className="flex flex-col gap-1 sm:flex-row   text-sm ">
       <div className="flex gap-1">
         <a
-          href="https://github.com/jeremnds?tab=repositories"
+          href="https://github.com/jeremnds"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-emerald-200"
