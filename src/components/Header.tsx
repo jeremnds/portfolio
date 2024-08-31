@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <div className="h-20 flex items-center text-zinc-400 font-semibold ">
+    <div className="flex h-20 items-center font-semibold text-zinc-400">
       jmendes
     </div>
   );

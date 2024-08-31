@@ -1,6 +1,6 @@
 export default function Links() {
   return (
-    <div className="flex flex-col gap-1 sm:flex-row   text-sm ">
+    <div className="flex flex-col gap-1 text-sm sm:flex-row">
       <div className="flex gap-1">
         <a
           href="https://github.com/jeremnds"
