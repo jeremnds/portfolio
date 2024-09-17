@@ -5,6 +5,21 @@ export default function ProjectList() {
   return (
     <>
       <ProjectItem
+        title="Todos App"
+        description="Application de liste de tâches avec authentification (JWT)"
+        href="https://todo-flame-one.vercel.app/"
+        githubHref="https://github.com/jeremnds/todo"
+        technologies={[
+          "React",
+          "Express.js",
+          "Mongoose",
+          "React Router",
+          "Passport.js",
+          "TypeScript",
+          "Tailwind",
+        ]}
+      />
+      <ProjectItem
         title="FormGen"
         description="Générateur IA de formulaires personnalisés pour développeurs"
         href="https://formgen-two.vercel.app/"
