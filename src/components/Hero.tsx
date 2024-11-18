@@ -15,6 +15,7 @@ export default function Hero() {
           passionné par la création d'interfaces web modernes et performantes.
           J'utilise des technologies telles que{" "}
           <span className="text-emerald-200">React</span>,{" "}
+          <span className="text-emerald-200">Node.js</span>,{" "}
           <span className="text-emerald-200">Next.js</span> et{" "}
           <span className="text-emerald-200">TypeScript </span>
           pour concevoir des applications dynamiques et intuitives. En dehors du
