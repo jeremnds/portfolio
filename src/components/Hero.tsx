@@ -11,7 +11,7 @@ export default function Hero() {
       <div className="mb-4 max-w-lg text-zinc-400">
         <p>
           Je suis un{" "}
-          <span className="text-emerald-500">développeur front-end</span>{" "}
+          <span className="text-emerald-500">développeur full-stack</span>{" "}
           passionné par la création d'interfaces web modernes et performantes.
           J'utilise des technologies telles que{" "}
           <span className="text-emerald-200">React</span>,{" "}
